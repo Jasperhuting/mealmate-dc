@@ -1,0 +1,11 @@
+specVersion: "v1alpha"
+serviceId: "mealmate-data-connect"
+location: "europe-west4"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "mealmate"
+      cloudSql:
+        instanceId: "mealmate-sql"
+connectorDirs: ["./default-connector"]

@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "mealmate-41c09"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {
+    "postgres": {
+      "localConnectionString": "postgres://postgres:Poi09dfg@localhost:5432/postgres"
+    }
+  }
+}
